@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: exerciseTwo
+  datasource:
+    url: jdbc:mysql://localhost:3306/store?createDatabaseIfNotExist=true
+    username: root
+    password: Eco@2002
+
+  jpa:
+    show-sql: true
