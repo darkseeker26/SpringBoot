@@ -2,7 +2,6 @@ package com.exercisetwo.exercisetwo.services;
 
 import com.exercisetwo.exercisetwo.domain.Address;
 import com.exercisetwo.exercisetwo.domain.Product;
-import com.exercisetwo.exercisetwo.domain.Profile;
 import com.exercisetwo.exercisetwo.domain.User;
 import com.exercisetwo.exercisetwo.repositories.*;
 import com.exercisetwo.exercisetwo.repositories.specifications.ProductSpec;
@@ -91,7 +90,7 @@ public class UserService {
 //
 //        products.forEach(user::addFavoriteProduct);
 //        userRepository.save(user);
-        productRepository.deleteById(4L);
+        productRepository.deleteById(5L);
     }
 
     @Transactional
