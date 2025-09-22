@@ -93,10 +93,10 @@ public class UserService {
         productRepository.deleteById(5L);
     }
 
-    @Transactional
-    public void updateProductPrices(){
-        productRepository.updatePriceByCategory(BigDecimal.valueOf(80.99), (byte)1);
-    }
+//    @Transactional
+//    public void updateProductPrices(){
+//        productRepository.updatePriceByCategory(BigDecimal.valueOf(80.99), (byte)1);
+//    }
 
     @Transactional
     public void fetchProducts(){
